@@ -84,6 +84,33 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      <h2>. . .</h2>
+      <h2>Education</h2>
+      <div className='container education__container'>
+      <div className='experience__skills'>
+          <h3>National Institute of Technology, Rourkela</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+                <div>
+                  <h4>B.tech</h4>
+                  <h4>Electrical & Electronics Engineering</h4>
+                  <small className='text-light'>2020-present</small>
+                </div>
+            </article>
+          </div>
+        </div>
+        <div className='experience__skills'>
+          <h3>Delhi Public School, Rourkela</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+                <div>
+                  <h4>High School Graduation</h4>
+                  <small className='text-light'>2006-2019</small>
+                </div>
+            </article>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }

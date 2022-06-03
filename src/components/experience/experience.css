@@ -39,5 +39,79 @@
 
 .experience__details-wicon {
     font-size: 2rem;
-    margin-top: 6px;
+    margin-top: 9px;
+}
+
+.education__container {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-rows: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.education__container > div{
+    background: var(--color-bg-varient);
+    padding: 1.4rem 3rem;
+    border-radius: 1rem;
+    border: .5px solid transparent;
+    transition: var(--transition);
+}
+
+.education__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+/* ==========================Media Query(medium devices)=====================*/
+@media screen and (max-width:1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+
+    .education__container {
+        grid-template-columns: 1fr;
+    }
+
+    .education__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .education__content {
+        padding: 1rem;
+    }
+}
+
+/* ==========================Media Query(small devices)=====================*/
+@media screen and (max-width:600px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div{
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+
+    .education__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .education__container > div{
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
 }

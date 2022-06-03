@@ -33,3 +33,29 @@ nav a.active {
     font-size: 1.1rem;
 }
 
+
+/* ==========================Media Query(small devices)=====================*/
+@media screen and (max-width:600px) {
+    nav {
+        top: 30%;
+        left: 91%;
+        background: var(--color-bg-varient);
+        width: max-content;
+        display: block;
+        position: fixed;
+    }
+
+    nav a {
+        padding: 1rem;
+        display: flex;
+        color: var(--color-primary);
+    }
+
+    .nav_icons {
+        text-align: center;
+        font-size: 1.65rem;
+    }
+    .text-light {
+        display: none;
+    }
+}
