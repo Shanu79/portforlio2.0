@@ -1,0 +1,43 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.experience__container > div {
+    background: var(--color-bg-varient);
+    padding: 1.4rem 3rem;
+    border-radius: 1rem;
+    border: .5px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    margin-bottom: 2rem;
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+}
+
+.experience__details-wicon {
+    font-size: 2rem;
+    margin-top: 6px;
+}

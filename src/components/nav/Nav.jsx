@@ -11,11 +11,36 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      <a href='#' onClick={()=> setActiveNav('#')} className={activeNav==='#'?'active':''}><TiHome/>Home</a>
-      <a href='#about' onClick={()=> setActiveNav('#about')} className={activeNav==='#about'?'active':''}><FaUserCircle/>About</a>
-      <a href='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience'?'active':''}><MdSchool/>Education & Skills</a>
-      <a href='#porforlio' onClick={()=> setActiveNav('#porforlio')} className={activeNav==='#porforlio'?'active':''}><MdWork/>Projects</a>
-      <a href='#contact' onClick={()=> setActiveNav('#contact')} className={activeNav==='#contact'?'active':''}><RiServiceFill/>Contact me</a>
+      <a href='#' onClick={()=> setActiveNav('#')} className={activeNav==='#'?'active':''}>
+        <TiHome className='nav_icons'/>
+        <div>
+          <small className='text-light'>Home</small>
+        </div>
+      </a>
+      <a href='#about' onClick={()=> setActiveNav('#about')} className={activeNav==='#about'?'active':''}>
+        <FaUserCircle className='nav_icons'/>
+        <div>
+          <small className='text-light'>About me</small>
+        </div>
+      </a>
+      <a href='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav==='#experience'?'active':''}>
+        <MdSchool className='nav_icons'/>
+        <div>
+          <small className='text-light'>Education & skills</small>
+        </div>
+      </a>
+      <a href='#porforlio' onClick={()=> setActiveNav('#porforlio')} className={activeNav==='#porforlio'?'active':''}>
+        <MdWork className='nav_icons'/>
+        <div>
+          <small className='text-light'>Projects</small>
+        </div>
+      </a>
+      <a href='#contact' onClick={()=> setActiveNav('#contact')} className={activeNav==='#contact'?'active':''}>
+        <RiServiceFill className='nav_icons'/>
+        <div>
+          <small className='text-light'>Contact me</small>
+        </div>
+      </a>
     </nav>
   )
 }
