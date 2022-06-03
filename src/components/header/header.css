@@ -29,11 +29,39 @@ header {
     bottom: 3rem;
 }
 
-
+/*=======================================================================Me=========================================================================*/
 .me {
+    border-radius: 1.3rem;
     width: 22rem;
     height: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
+    overflow: hidden;
+}
+
+/*======================================================================================scrollDown================================================================================*/
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 3rem;
+}
+
+/* ==========================Media Query(medium devices)=====================*/
+@media screen and (max-width:1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* ==========================Media Query(small devices)=====================*/
+@media screen and (max-width:600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
 }
