@@ -55,7 +55,7 @@ nav a.active {
         text-align: center;
         font-size: 1.65rem;
     }
-    .text-light {
+    .text-light-nav {
         display: none;
     }
 }

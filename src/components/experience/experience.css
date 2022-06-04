@@ -44,12 +44,14 @@
 
 .education__container {
     display: grid;
+    place-items: center;
     column-gap: 2rem;
     grid-template-rows: 1fr 1fr;
     gap: 2.5rem;
 }
 
 .education__container > div{
+    width: 70%;
     background: var(--color-bg-varient);
     padding: 1.4rem 3rem;
     border-radius: 1rem;
@@ -113,5 +115,8 @@
     .education__container > div{
         width: 100%;
         padding: 1.5rem 1rem;
+    }
+    .text-light {
+        display: block;
     }
 }
