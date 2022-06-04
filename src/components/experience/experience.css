@@ -44,16 +44,13 @@
 
 .education__container {
     display: grid;
-    place-items: center;
-    column-gap: 2rem;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 2.5rem;
 }
 
 .education__container > div{
-    width: 70%;
     background: var(--color-bg-varient);
-    padding: 1.4rem 3rem;
+    padding: 1rem 1.5rem;
     border-radius: 1rem;
     border: .5px solid transparent;
     transition: var(--transition);
@@ -63,6 +60,22 @@
     background: transparent;
     border-color: var(--color-primary-varient);
     cursor: default;
+}
+
+.experience__skills {
+    line-height: 2rem;
+    text-align: center;
+}
+
+.experience__skills > h3{
+    margin-bottom: 1.5rem;
+}
+
+.school__item-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* ==========================Media Query(medium devices)=====================*/
@@ -108,13 +121,13 @@
     }
 
     .education__container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
     .education__container > div{
-        width: 100%;
-        padding: 1.5rem 1rem;
+        width: 90%;
+        padding: 1rem 1rem;
     }
     .text-light {
         display: block;
