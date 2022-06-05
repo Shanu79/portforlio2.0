@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portforlio2.0/static/css/main.1359c68a.css",
+    "main.js": "/portforlio2.0/static/js/main.e06e968b.js",
+    "static/media/work1.png": "/portforlio2.0/static/media/work1.ef951642df80149b9150.png",
+    "static/media/dp.png": "/portforlio2.0/static/media/dp.035a34c0641b2e9bcfa3.png",
+    "static/media/nit.png": "/portforlio2.0/static/media/nit.b087d2f7f846c1c6c2e4.png",
+    "static/media/work2.png": "/portforlio2.0/static/media/work2.954f426cdc3a74c5df91.png",
+    "static/media/cv.pdf": "/portforlio2.0/static/media/cv.6c4b1c27f5e69955d206.pdf",
+    "static/media/dps.png": "/portforlio2.0/static/media/dps.c8694654012dca4ad34a.png",
+    "static/media/work3.jpg": "/portforlio2.0/static/media/work3.0ae9596bb00d9773ce17.jpg",
+    "index.html": "/portforlio2.0/index.html",
+    "main.1359c68a.css.map": "/portforlio2.0/static/css/main.1359c68a.css.map",
+    "main.e06e968b.js.map": "/portforlio2.0/static/js/main.e06e968b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1359c68a.css",
+    "static/js/main.e06e968b.js"
+  ]
+}
