@@ -29,10 +29,10 @@ nav a.active {
     color: var(--color-white);
 }
 
-.nav_icons {
-    font-size: 1.1rem;
+nav span {
+    margin-top: -3px;
+    padding-left: 3px;
 }
-
 
 /* ==========================Media Query(small devices)=====================*/
 @media screen and (max-width:600px) {
@@ -51,10 +51,6 @@ nav a.active {
         color: var(--color-primary);
     }
 
-    .nav_icons {
-        text-align: center;
-        font-size: 1.65rem;
-    }
     .text-light-nav {
         display: none;
     }
