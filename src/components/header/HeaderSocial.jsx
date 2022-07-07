@@ -5,8 +5,8 @@ import {AiOutlineGithub} from 'react-icons/ai'
 const HeaderSocial = () => {
   return (
     <div className='header__socials'>
-        <a href='' target="_blank"><GrLinkedin/></a>
-        <a href='' target="_blank"><AiOutlineGithub/></a>
+        <a href='https://www.linkedin.com/in/swagat-raj1197/' target="_blank"><GrLinkedin/></a>
+        <a href='https://github.com/Shanu79' target="_blank"><AiOutlineGithub/></a>
         <a href='' target="_blank"></a>
     </div>
   )
